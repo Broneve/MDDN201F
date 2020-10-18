@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #78281F; /*Main background*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -160,11 +160,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #ffffff !important; /*menu buttin when hovering over*/
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #DC7633 !important;
 		}
 
 	strong, b {
@@ -1784,7 +1784,7 @@ input, select, textarea {
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #ffffff; /*lines under headings */
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -2041,7 +2041,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
-			border-color: #9bf1ff;
+			border-color: #A93226;
 			content: '\f00c';
 			color: #242943;
 		}
@@ -2133,7 +2133,7 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #ffffff;
+			background-color: #ffffff; /*Social media icon background*/
 			border-radius: 100%;
 			color: #242943;
 			display: inline-block;
@@ -2151,11 +2151,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #78281F; /*as u click red shall appear as it take u to the next page */
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #DC7633;
 	}
 
 /* Image */
@@ -2516,8 +2516,8 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #ffffff;
-		color: #ffffff;
+		box-shadow: inset 0 0 0 2px #ffffff; /*learn more outline*/ 
+		color: #ffffff; /*learn more text */
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2530,7 +2530,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-	}
+	} /*MENU*/
 
 		input[type="submit"]:hover, input[type="submit"]:active,
 		input[type="reset"]:hover,
@@ -2541,8 +2541,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #DC7633;
+			color: #DC7633;
 		}
 
 		input[type="submit"]:active,
@@ -2551,8 +2551,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(155, 241, 255, 0.1);
-			box-shadow: inset 0 0 0 2px #53e3fb;
-			color: #53e3fb;
+			box-shadow: inset 0 0 0 2px #DC7633;
+			color: #DC7633;
 		}
 
 		input[type="submit"].icon:before,
@@ -2671,9 +2671,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: #DC7633;
 			box-shadow: none;
-			color: #242943;
+			color: #DC7633;
 		}
 
 			input[type="submit"].primary:hover, input[type="submit"].primary:active,
@@ -2685,8 +2685,8 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
-				color: #242943 !important;
+				background-color: #DC7633;
+				color: #DC7633 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2694,7 +2694,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color: #DC7633;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2826,32 +2826,35 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+			/*Colours for over movement photos*/
+
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #DC7633; 
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #F0B27A; /*F0B27A*/
+				
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #660000;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #BF360C ; 
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #F0B27A;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #DC7633  ;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2938,7 +2941,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #78281F; /*top and bottom artist background*/
 		}
 
 			.spotlights > section > .image {
@@ -3000,7 +3003,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #78281F; /*Middle artist background */
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3114,7 +3117,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #78281F; /*Menu bar when scrolling*/
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3144,8 +3147,8 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
-				color: #242943;
+				background-color: #ffffff; /*Forty background on menu bar */
+				color: #DC7633;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3153,11 +3156,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #ffffff; /*Hover over forty*/
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #DC7633;
 			}
 
 		#header nav {
@@ -3259,27 +3262,27 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #ffffff;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #ffffff;
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #ffffff;
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #ffffff;
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #ffffff;
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #ffffff;
 			}
 
 		body.is-preload #header.alt {
@@ -3410,7 +3413,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #78281F; /*top background home page*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -3495,7 +3498,7 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #DC7633; /*Artists top banner*/
 		}
 
 		#banner.style3:after {
@@ -3589,7 +3592,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #78281F; /*Main background */
 	}
 
 		#main > * {
@@ -3798,7 +3801,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(220,118,51,0.8); /*Menu Background*/
 		box-shadow: none;
 		height: 100%;
 		left: 0;
